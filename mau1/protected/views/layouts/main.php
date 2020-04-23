@@ -16,7 +16,7 @@
         <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/style.css" />
         <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/responsive.css" />
          
-        <title>The Laptop Shop</title>
+        <title>Laptop Shop</title>
         <style>
   .modal-backdrop {
   position: fixed;
@@ -108,7 +108,7 @@
                         <div class="col-sm-9 header-top-right">
                      <?php $this->widget('application.widgets.bannerWidgets'); ?>        
                             <div class="header-banner banner-opacity">
-                                <a href="#"><img alt="Funky roots" src="<?php echo Yii::app()->request->baseUrl; ?>/data/ads1.jpg" /></a>
+                                <a href="#"><img alt="Funky roots" src="<?php echo Yii::app()->request->baseUrl; ?>/data/pt1.jpg" /></a>
                             </div>
                         </div>
                     </div>
@@ -145,12 +145,12 @@
                             <div class="row banner-bottom">
                                 <div class="col-sm-6">
                                     <div class="banner-boder-zoom">
-                                        <a href="#"><img alt="ads" class="img-responsive" src="<?php echo Yii::app()->request->baseUrl; ?>/data/ads17.jpg" /></a>
+                                        <a href="#"><img alt="ads" class="img-responsive" src="<?php echo Yii::app()->request->baseUrl; ?>/data/bnduoi2.jpg" /></a>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="banner-boder-zoom">
-                                        <a href="#"><img alt="ads" class="img-responsive" src="<?php echo Yii::app()->request->baseUrl; ?>/data/ads18.jpg" /></a>
+                                        <a href="#"><img alt="ads" class="img-responsive" src="<?php echo Yii::app()->request->baseUrl; ?>/data/bnduoi1.png" /></a>
                                     </div>
                                 </div>
                             </div>
@@ -173,12 +173,12 @@
                             <div id="contact-box">
                                 <div class="introduce-title">Đăng kí mail để nhận tin mới nhất</div>
                                 <div class="input-group" id="mail-box">
-                                    <input type="text" placeholder="Your Email Address"/>
+                                    <input type="text" placeholder="Nhập email của bạn"/>
                                     <span class="input-group-btn">
-                                        <button class="btn btn-default" type="button">OK</button>
+                                        <button class="btn btn-default" type="button">Gửi</button>
                                     </span>
                                 </div><!-- /input-group -->
-                                <div class="introduce-title">Theo doi trang</div>
+                                <div class="introduce-title">Theo dõi trang</div>
                                 <div class="social-link">
                                     <a href="#"><i class="fa fa-facebook"></i></a>
                                     <a href="#"><i class="fa fa-pinterest-p"></i></a>
@@ -258,7 +258,7 @@
               </div>
               <div class="modal-body">
                 <div class="rows">
-                    <p>Bạn có chắc chắn mua sản phẩm này?</p>
+                    <!-- <p>Bạn có chắc chắn mua sản phẩm này?</p> -->
                     <div class="col-md-4">
                         <img id="imgCart" src="" width="">
                     </div>
@@ -312,7 +312,7 @@
            //lay text cua the #name gan lai vao div name_xxx
                      $('#idCart').val(idCart);
                     $('#name').text($('#name_'+idCart).text());
-                    $('#price').text($('#pri_'+idCart).text()+'$');
+                    $('#price').text($('#pri_'+idCart).text()+'Đ');
                     $('#myModal').modal('show');
         }
              function AddCart(idCart){
@@ -332,7 +332,7 @@
             var obj=$.parseJSON(JSON.stringify(result));
             showSp=obj.number;
             showNumber=obj.total;
-            $('#showSP').html(showSp +"&nbsp;"+"Sản phẩm"+"-"+showNumber +"$" );
+            $('#showSP').html(showSp +"&nbsp;"+"Sản phẩm"+"-"+showNumber +"Đ" );
             $('#showNumber').text(showNumber);
             $('#myModal').modal('hide');
                    

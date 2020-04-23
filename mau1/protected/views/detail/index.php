@@ -161,11 +161,6 @@
                                     <div class="product-img-thumb" id="gallery_01">
                                         <ul class="owl-carousel" data-items="3" data-nav="true" data-dots="false" data-margin="20" data-loop="true">
                                             <li>
-                                                <a href="#" data-image="<?php echo Yii::app()->request->baseUrl; ?>/<?php echo $item['image'] ?>" data-zoom-image="<?php echo Yii::app()->request->baseUrl; ?>/<?php echo $item['image'] ?>">
-                                                    <img id="product-zoom"  src="<?php echo Yii::app()->request->baseUrl; ?>/data/product-s3-100x122.jpg" /> 
-                                                </a>
-                                            </li>
-                                            <li>
                                                 <a href="#" data-image="<?php echo Yii::app()->request->baseUrl; ?>/<?php echo $item['image_review_one'] ?>" data-zoom-image="<?php echo Yii::app()->request->baseUrl; ?>/<?php echo $item['image_review_one'] ?>">
                                                     <img id="product-zoom"  src="<?php echo Yii::app()->request->baseUrl; ?>/<?php echo $item['image_review_one'] ?>" /> 
                                                 </a>

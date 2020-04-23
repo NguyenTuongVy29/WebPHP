@@ -32,8 +32,8 @@ $this->menu=array(
             'type' => 'raw',
         ),
         array(
-            'label' => 'Mã hóa màu',
-            'name' => 'code',
+            'label' => 'Mã size',
+            'name' => 'id_size',
             'type' => 'raw',
         ),
 	),

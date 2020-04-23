@@ -1,7 +1,5 @@
 
 <?php
-
-///edit by:leTham. 8/10
 //goi cac ham trong models->Category
 
 class leftMenu extends CWidget{

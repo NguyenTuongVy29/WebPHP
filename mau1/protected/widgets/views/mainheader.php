@@ -1,7 +1,7 @@
  <div class="container main-header">
         <div class="row">
             <div class="col-xs-12 col-sm-3 logo">
-                <a href="<?php echo Yii::app()->request->baseUrl; ?>/"><img alt="Kute Shop" src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo.png" /></a>
+                <a href="<?php echo Yii::app()->request->baseUrl; ?>/"><img alt="Laptop Shop" src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo.png" /></a>
             </div>
             <div class="col-xs-7 col-sm-7 header-search-box">
                 <div class="form-inline" >

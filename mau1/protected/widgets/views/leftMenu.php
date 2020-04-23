@@ -36,16 +36,16 @@
                                 <?php
                             }
                             ?>
-                            <div class="mega-custom-html col-sm-12">
+                            <!-- <div class="mega-custom-html col-sm-12">
                                 <a href="#"><img src="<?php echo Yii::app()->request->baseUrl; ?>/<?php echo $item["image_banner_top"] ?>" alt="Banner"></a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </li>
             <?php } ?>
             <li class="cat-link-orther">
-                <a href="#"><img class="icon-menu" alt="Funky roots" src="<?php echo Yii::app()->request->baseUrl; ?>/data/9.png">Jewelry &amp; Watches</a></li>
+                <!-- <a href="#"><img class="icon-menu" alt="Funky roots" src="<?php echo Yii::app()->request->baseUrl; ?>/data/9.png">Jewelry &amp; Watches</a></li> -->
         </ul>
-        <div class="all-category"><span class="open-cate">Tất cả danh mục khác</span></div>
+        <!-- <div class="all-category"><span class="open-cate">Tất cả danh mục khác</span></div> -->
     </div>
 </div>

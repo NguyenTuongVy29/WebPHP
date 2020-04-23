@@ -65,8 +65,8 @@
                         <div class="right-block">
                             <h5 class="product-name"><a id="name_<?php echo $pro['id_product'] ?>" href="<?php echo Yii::app()->request->baseUrl.'/Detail/Detail/id/'; ?><?php  echo $pro['id_product']?>"><?php echo $pro['name'] ?></a></h5>
                             <div class="content_price">
-                                <span id="pri_<?php echo $pro['id_product'] ?>" class="price product-price"><?php echo $pro['price_new'] ?></span>
-                                <span class="price old-price">$52,00</span>
+                                <span id="pri_<?php echo $pro['id_product'] ?>" class="price product-price"><?php echo $pro['price_new'] ?>Đ</span>
+                                <span class="price old-price">20000000 Đ</span>
                             </div>
                             <div class="product-star">
                                 <i class="fa fa-star"></i>

@@ -22,10 +22,10 @@ class CategoryController extends Controller
         if ($id != null) {
             $cat = Category::getCatById($id);
              // gọi đến color
-                $color= Color::getAllColor('id_color,name,code');
+                $color= Color::getAllColor('id_color,name,id_size');
                 $temColor=array();
                 foreach($color as $item){
-                    $temColor[$item['id_color']]=$item['code'];
+                    $temColor[$item['id_color']]=$item['id_size'];
                 }
                 // gọi đến size
                 $size=  Size::getAllSize('id_size,name');
